@@ -11,6 +11,10 @@
 		DB4E0BB32C3899E70000C8F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E0BB22C3899E70000C8F2 /* ContentView.swift */; };
 		DB4E0BB52C3899E90000C8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4E0BB42C3899E90000C8F2 /* Assets.xcassets */; };
 		DB4E0BB82C3899E90000C8F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4E0BB72C3899E90000C8F2 /* Preview Assets.xcassets */; };
+		DB4E0BBF2C389BD80000C8F2 /* DogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E0BBE2C389BD80000C8F2 /* DogDetailView.swift */; };
+		DB4E0BC12C38A1B60000C8F2 /* DogImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E0BC02C38A1B60000C8F2 /* DogImageAPI.swift */; };
+		DB4E0BC32C38A1D90000C8F2 /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E0BC22C38A1D90000C8F2 /* DogImage.swift */; };
+		DB4E0BC52C38A2200000C8F2 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4E0BC42C38A2200000C8F2 /* DogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		DB4E0BB22C3899E70000C8F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB4E0BB42C3899E90000C8F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4E0BB72C3899E90000C8F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB4E0BBE2C389BD80000C8F2 /* DogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailView.swift; sourceTree = "<group>"; };
+		DB4E0BC02C38A1B60000C8F2 /* DogImageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageAPI.swift; sourceTree = "<group>"; };
+		DB4E0BC22C38A1D90000C8F2 /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
+		DB4E0BC42C38A2200000C8F2 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				DB4E0BB02C3899E70000C8F2 /* API_Project_Part_2App.swift */,
 				DB4E0BB22C3899E70000C8F2 /* ContentView.swift */,
+				DB4E0BBE2C389BD80000C8F2 /* DogDetailView.swift */,
+				DB4E0BC02C38A1B60000C8F2 /* DogImageAPI.swift */,
+				DB4E0BC42C38A2200000C8F2 /* DogViewController.swift */,
+				DB4E0BC22C38A1D90000C8F2 /* DogImage.swift */,
 				DB4E0BB42C3899E90000C8F2 /* Assets.xcassets */,
 				DB4E0BB62C3899E90000C8F2 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB4E0BB32C3899E70000C8F2 /* ContentView.swift in Sources */,
+				DB4E0BC32C38A1D90000C8F2 /* DogImage.swift in Sources */,
 				DB4E0BB12C3899E70000C8F2 /* API_Project_Part_2App.swift in Sources */,
+				DB4E0BBF2C389BD80000C8F2 /* DogDetailView.swift in Sources */,
+				DB4E0BC12C38A1B60000C8F2 /* DogImageAPI.swift in Sources */,
+				DB4E0BC52C38A2200000C8F2 /* DogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
